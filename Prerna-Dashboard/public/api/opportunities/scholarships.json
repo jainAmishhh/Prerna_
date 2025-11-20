@@ -1,0 +1,18 @@
+[
+  {
+    "id": "S501",
+    "title": "Pragati Scholarship for Girl Child",
+    "description": "Financial aid for female students pursuing technical education (Diploma/Degree).",
+    "type": "scholarship",
+    "location": "National",
+    "category": "Education"
+  },
+  {
+    "id": "S502",
+    "title": "Aatmanirbhar Micro-Loan Scheme",
+    "description": "Low-interest micro-loans provided by the government to women starting small businesses.",
+    "type": "grant",
+    "location": "State Specific",
+    "category": "Finance"
+  }
+]

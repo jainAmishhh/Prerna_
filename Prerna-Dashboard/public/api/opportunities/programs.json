@@ -1,0 +1,18 @@
+[
+  {
+    "id": "P401",
+    "title": "Vocational Tailoring and Embroidery Program",
+    "description": "A certified training program focused on traditional Indian tailoring arts for women seeking self-employment.",
+    "type": "program",
+    "location": "Local Village Centers",
+    "category": "Skills"
+  },
+  {
+    "id": "P402",
+    "title": "Free Legal Aid Clinic",
+    "description": "A state-sponsored program offering free legal advice on domestic violence, property rights, and divorce.",
+    "type": "program",
+    "location": "District Legal Services",
+    "category": "Legal"
+  }
+]

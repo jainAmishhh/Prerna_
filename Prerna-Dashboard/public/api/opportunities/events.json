@@ -1,0 +1,29 @@
+[
+  {
+    "id": "E101",
+    "title": "Women in Business Summit 2025",
+    "description": "A national summit focusing on networking, digital marketing, and funding opportunities for women entrepreneurs.",
+    "type": "event",
+    "location": "New Delhi (Hybrid)",
+    "date": "2025-11-15",
+    "category": "Entrepreneurship"
+  },
+  {
+    "id": "E102",
+    "title": "Health & Hygiene Awareness Camp",
+    "description": "Free local workshops on menstrual health, nutrition, and early cancer screening awareness.",
+    "type": "event",
+    "location": "Rural Areas (Maharashtra)",
+    "date": "2025-10-01",
+    "category": "Health"
+  },
+  {
+    "id": "E103",
+    "title": "Digital Literacy Workshop Series",
+    "description": "A series of online workshops to teach women how to use smartphones for online banking and government schemes.",
+    "type": "training",
+    "location": "Online",
+    "date": "Ongoing",
+    "category": "Skills"
+  }
+]

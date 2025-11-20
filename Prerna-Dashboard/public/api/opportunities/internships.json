@@ -1,0 +1,18 @@
+[
+  {
+    "id": "I301",
+    "title": "NGO Marketing Internship",
+    "description": "Remote 3-month internship focused on digital marketing for a non-profit organization dedicated to women's rights.",
+    "type": "internship",
+    "location": "Remote",
+    "category": "Career"
+  },
+  {
+    "id": "I302",
+    "title": "Government Policy Analyst Internship",
+    "description": "An opportunity to work directly with a state government body on analyzing new women's welfare policies.",
+    "type": "internship",
+    "location": "State Capital",
+    "category": "Policy"
+  }
+]

@@ -14,7 +14,7 @@ const AboutStory = () => {
           <span className="font-semibold">Our Story</span>
         </div>
         {/* Title Gradient: Yellow to Coral */}
-        <h2 className="text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#FFC843] to-[#D9534F] mb-4">
+        <h2 className="text-5xl font-bold text-transparent bg-clip-text bg-linear-to-r from-[#FFC843] to-[#D9534F] mb-4">
           How Prerna Was Born
         </h2>
         <p className="text-[#555555] text-xl max-w-3xl mx-auto">
@@ -31,10 +31,10 @@ const AboutStory = () => {
               className={`absolute inset-0 transition-opacity duration-700 ${activeStory === idx ? 'opacity-100' : 'opacity-0'}`}
             >
               <img src={slide.image} alt={slide.title} className="w-full h-full object-cover" />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
+              <div className="absolute inset-0 bg-linear-to-t from-black/70 to-transparent" />
               <div className="absolute bottom-0 left-0 p-8 text-white">
                 {/* Icon Badge uses dynamic color from constants */}
-                <div className={`inline-block p-3 rounded-xl bg-gradient-to-r ${slide.color} mb-4`}>
+                <div className={`inline-block p-3 rounded-xl bg-linear-to-r ${slide.color} mb-4`}>
                   {React.cloneElement(slide.icon, { size: 28 })}
                 </div>
                 <h3 className="text-3xl font-bold">{slide.title}</h3>
@@ -55,7 +55,7 @@ const AboutStory = () => {
                   : "bg-white/70 border-gray-100 hover:bg-[#FBFBFB] hover:shadow-md" // Inactive: White/Creamy
               }`}
             >
-              <div className={`shrink-0 w-10 h-10 rounded-full flex items-center justify-center text-white font-bold bg-gradient-to-br ${slide.color}`}>
+              <div className={`shrink-0 w-10 h-10 rounded-full flex items-center justify-center text-white font-bold bg-linear-to-br ${slide.color}`}>
                   {idx + 1}
               </div>
               <div>

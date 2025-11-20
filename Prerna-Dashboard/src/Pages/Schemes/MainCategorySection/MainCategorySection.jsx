@@ -163,14 +163,14 @@ export default function MainCategorySection() {
       <div className="max-w-7xl mx-auto px-6 py-16 relative z-10">
         {/* Hero Header */}
         <div className="text-center mb-16 relative">
-          <h2 className="text-5xl md:text-6xl font-bold text-transparent bg-clip-text bg-linear-to-r from-pink-600 via-purple-600 to-rose-600 mb-6 leading-tight">
+          <h2 className="text-5xl md:text-6xl font-bold text-transparent bg-clip-text bg-linear-to-r from-[#FFC843] to-[#D9534F] mb-6 leading-tight">
             Complete Support Categories
           </h2>
 
           <p className="text-gray-700 text-xl md:text-2xl max-w-3xl mx-auto leading-relaxed">
             Everything you need - from education to employment, health to safety
             <br />
-            <span className="text-pink-600 font-semibold inline-flex items-center gap-2 mt-2">
+            <span className="text-[#ffc813] font-semibold inline-flex items-center gap-2 mt-2">
               Your journey, our support
             </span>
           </p>

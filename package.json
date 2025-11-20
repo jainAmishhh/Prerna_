@@ -1,0 +1,26 @@
+{
+  "name": "prerna",
+  "version": "1.0.0",
+  "description": "A web platform designed to inform, empower, guide, and support women across India — from urban professionals to rural homemakers — using AI, personalization, vernacular language, and a video-based learning interface.",
+  "homepage": "https://github.com/jainAmishhh/Prerna#readme",
+  "bugs": {
+    "url": "https://github.com/jainAmishhh/Prerna/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jainAmishhh/Prerna.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"npm run client\" \"npm run backend\"",
+    "backend": "cd server && npm run dev",
+    "client": "cd Prerna-Dashboard && npm run dev"
+  },
+  "dependencies": {
+    "concurrently": "^9.2.1"
+  }
+}

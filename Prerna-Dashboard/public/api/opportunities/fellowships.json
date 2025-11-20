@@ -1,0 +1,18 @@
+[
+  {
+    "id": "F201",
+    "title": "Rural Women Leadership Fellowship",
+    "description": "A 6-month program designed to build leadership skills among women working on social impact projects in rural India.",
+    "type": "fellowship",
+    "location": "Regional Hubs",
+    "category": "Leadership"
+  },
+  {
+    "id": "F202",
+    "title": "Tech Entrepreneur Residency Program",
+    "description": "A 3-month residency in Bengaluru providing mentorship and initial funding for women launching tech startups.",
+    "type": "fellowship",
+    "location": "Bengaluru",
+    "category": "Technology"
+  }
+]
