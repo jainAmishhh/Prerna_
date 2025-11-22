@@ -15,7 +15,7 @@ const AboutFeatures = () => {
             What Makes Prerna Special
           </h2>
           <p className="text-gray-600 text-xl max-w-3xl mx-auto">
-            First-of-its-kind Voice-to-Video AI platform designed exclusively for
+            First-of-its-kind Voice-to-Voice AI platform designed exclusively for
             women empowerment
           </p>
         </div>
