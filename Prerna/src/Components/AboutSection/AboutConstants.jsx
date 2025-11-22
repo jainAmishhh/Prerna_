@@ -23,7 +23,7 @@ export const storySlides = [
   },
   {
     title: "The Solution",
-    text: "What if women could simply speak their questions and get video answers? What if every scheme, every opportunity was just a voice command away? Thus, Prerna was born.",
+    text: "What if women could simply speak their questions and get voice answers? What if every scheme, every opportunity was just a voice command away? Thus, Prerna was born.",
     icon: <Sparkles />,
     color: "from-purple-500 to-indigo-500",
     image: "https://images.unsplash.com/photo-1474631245212-32dc3c8310c6?q=80&w=1024&auto=format&fit=crop" // Woman with phone/tech
@@ -66,13 +66,13 @@ export const whyPrernaMeans = [
 export const coreFeatures = [
   {
     icon: <Mic size={40} />,
-    title: "Voice-to-Video AI",
+    title: "Voice-to-Voice AI",
     subtitle: "Revolutionary Technology",
-    description: "Speak in Hindi or English. We convert your voice to text, process your question, and generate easy-to-understand video responses. Perfect for all literacy levels.",
+    description: "Speak in Hindi or English. We convert your voice to text, process your question, and generate easy-to-understand Voice responses. Perfect for all literacy levels.",
     linear: "from-pink-500 to-rose-600",
     image: "https://images.unsplash.com/photo-1587614382346-4ec70e388b28?q=80&w=600&auto=format&fit=crop",
-    stats: ["Voice Recognition", "Text Processing", "Video Generation", "Multi-language"],
-    howItWorks: ["Speak your question naturally", "AI converts voice to text instantly", "System understands context", "Generates video answer"]
+    stats: ["Voice Recognition", "Text Processing", "Voice Generation", "Multi-language"],
+    howItWorks: ["Speak your question naturally", "AI converts voice to text instantly", "System understands context", "Generates Voice answer"]
   },
   {
     icon: <MessageCircle size={40} />,
@@ -101,8 +101,8 @@ export const coreFeatures = [
     description: "Full support in Hindi and English. Rural or urban, educated or not - everyone deserves access to information in their preferred language.",
     linear: "from-indigo-500 to-purple-600",
     image: "https://images.unsplash.com/photo-1739442703639-e7201aeb2118?q=80&w=1001&auto=format&fit=crop",
-    stats: ["Hindi Content", "English Content", "Voice in Both", "Video Subtitles"],
-    howItWorks: ["Choose language", "Switch with one tap", "Voice works in both", "Videos auto-subtitled"]
+    stats: ["Hindi Content", "English Content", "Voice in Both", "Voice Subtitles"],
+    howItWorks: ["Choose language", "Switch with one tap", "Voice works in both", "Voices auto-subtitled"]
   }
 ];
 
@@ -146,8 +146,8 @@ export const platformPillars = [
 export const aiFeatures = [
   {
     icon: <Mic className="w-8 h-8 text-pink-600" />,
-    title: "Voice to Video",
-    desc: "Speak in Hindi/English → AI generates personalized video responses",
+    title: "Voice to Voice",
+    desc: "Speak in Hindi/English → AI generates personalized Voice responses",
     badge: "AI Powered",
   },
   {
@@ -157,9 +157,9 @@ export const aiFeatures = [
     badge: "Always Available",
   },
   {
-    icon: <Video className="w-8 h-8 text-pink-600" />,
+    icon: <Voice className="w-8 h-8 text-pink-600" />,
     title: "Visual Education",
-    desc: "Complex topics explained through easy-to-understand videos",
+    desc: "Complex topics explained through easy-to-understand Voices",
     badge: "Multilingual",
   },
   {
