@@ -208,7 +208,7 @@ const AskDidi = () => {
       </div>
 
       {/* Chat Box */}
-      <div className="w-[90%] max-w-[450px] mb-5 p-5 bg-white rounded-xl shadow-2xl text-center">
+      {/* <div className="w-[90%] max-w-[450px] mb-5 p-5 bg-white rounded-xl shadow-2xl text-center">
         <h3 className="text-[#00796b] mt-0 font-semibold text-xl mb-4">
           Text Chat
         </h3>
@@ -225,7 +225,7 @@ const AskDidi = () => {
         >
           💬 Send Message
         </button>
-      </div>
+      </div> */}
 
       {/* Voice Controls */}
       <div className="w-[90%] max-w-[450px] mb-5 p-5 bg-white rounded-xl shadow-2xl text-center flex flex-col items-center">
@@ -278,3 +278,4 @@ const AskDidi = () => {
 };
 
 export default AskDidi;
+

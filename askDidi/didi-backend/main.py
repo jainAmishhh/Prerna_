@@ -10,6 +10,7 @@ from routes.stt_routes import router as stt_router
 
 app = FastAPI()
 
+# ---------------- CORS FIX ----------------
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
@@ -17,6 +18,7 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+# -------------------------------------------
 
 @app.get("/")
 def home():
